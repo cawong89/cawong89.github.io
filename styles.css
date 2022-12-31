@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+/* Designed by C. Wong (with elements from a variety of open-source templates) */
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+a:link, a:visited {
+	text-decoration:none;
+	color:#065388; /* This creates the link text color */
+}
+a:hover {
+	color:#990000; /* This creates the link hover color */
+	text-decoration:underline;
+}
+a.current:link, a.current:visited {
+	color:#111;
+	font-weight:bold;
+}
+img { border:none; }
+body {
+	margin:35px; /* This controls the offset from the top of the page to the top of the super-container */
+	padding:0;
+	/* background-image: url(image.jpg); Disabled; background image tiling */
+	background-color:#002469; /* Official Rice blue background */
+	color:#000000; /* This controls the black font in the body */
+	font-family: Merriweather, sans-serif;
+
+	}
+
+#container {
+	width:700px; /* Width of super-container */
+	margin:auto;
+	font-size:16px;
+}
+
+
+
+/* This controls the properties of the super-container */
+#wrapper {
+ box-shadow: 0 0 5px #222;
+ -webkit-box-shadow: 0 0 5px #222;
+ -moz-box-shadow: 0 0 5px #222;
+ -moz-border-radius:25px;
+ -webkit-border-radius:25px;
+margin:5px 0; 
+
+}	
+#banner {
+	color:#000000; /* Color of banner-container text */
+	padding:5px;
+	
+	-moz-border-radius-topleft:25px;
+	-webkit-border-top-left-radius:25px;
+	-moz-border-radius-topright:25px;
+	-webkit-border-top-right-radius:25px;
+
+	
+	background-color:#ffffff; /* Color of banner-container background */
+	margin:0;
+	border-bottom:3px solid #5E6062; /* The top border of the nav-container */
+}
+
+h1 {
+	margin:0;
+	padding: 0;
+	font-size:36px;
+    font-weight: bold;
+	font-family: OpenSansRegular, sans-serif;
+}
+
+#banner p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+}
+#nav {
+	background-color: #bec0c1; /* Background color of nav-container */
+	border-bottom:3px solid #5E6062; /* The bottom border of the nav-container */
+	
+	
+}
+#nav ul {
+	list-style:none;
+	margin:0 10px;
+	padding:0 7px;
+	height:32px;
+	
+}
+#nav ul li {
+	display:inline;
+	float:left;
+}
+#nav a:link, #nav a:visited {
+	display:block;
+	float:left;
+	line-height:32px;
+	padding:0 8px;
+	font-size:18px;
+}
+#page {
+	background-color:#FFF; /* Background of the content container */
+	overflow:auto;
+	padding:15px 0;
+	-moz-border-radius-bottomleft:25px;
+	-webkit-border-bottom-left-radius:25px;
+	-moz-border-radius-bottomright:25px;
+	-webkit-border-bottom-right-radius:25px;
+}
+#sidebar {
+	min-width:210px;
+	float:left;
+	line-height:140%;
+	background-color:#FFFFFF;
+	border: 0px solid #E5E5E5;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+
+#sidebar h3, #sidebar p {
+	padding:0 10px;
+}
+#content {
+	margin:0 15px;
+	
+	line-height:160%;
+}
+#footer {
+	padding:15px;	
+	overflow:auto;
+	color:#FFF;
+	font-size:90%;
+	text-align:right;
+}
+#footer img {
+	float:left; 
+	margin-right:15px;
+}
+
+h2 {
+	margin-top:0;
+	color:#494949;
+	font-weight:normal;
+	font-size:200%;
+}
+
+.right {
+	float:right;
+	margin: 0 0 15px 15px;
+}
+.left {
+	float:left;
+	margin:0 15px 15px 0;
+}
+
+#contentbar {
+	width:210px;
+	float:left;
+	line-height:140%;
+	background-color:#EEE;
+	border: 1px solid #E5E5E5;
+	margin-top: 0;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 0px;	
+	
+}
+
+#contentbar h3, #contentbar p {
+	padding:0 10px;
+}
+#fac_photo {margin-left:auto; margin-right:auto; display:block; padding:10px;}
+h1 {
+	 -moz-border-radius-topleft:25px;
+	-webkit-border-top-left-radius:25px;
+	-moz-border-radius-topright:25px;
+	-webkit-border-top-right-radius:25px;
+		
+}
+
+#banner p {padding-left:1em}
+/* uncomment the specific line to hide the content div on specific pages */
+/* .contentbar1 {display:none}  */
+ .contentbar2 {display:none}  
+/* .contentbar3 {display:none}  */
+/* .contentbar4 {display:none}  */
+/* .contentbar5 {display:none}  */
